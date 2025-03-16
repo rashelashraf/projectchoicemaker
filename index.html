@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cybersecurity Project Matchmaker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <h1>
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="currentColor" 
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="header-icon">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5"></path>
+            <path d="M2 12l10 5 10-5"></path>
+          </svg>
+          Cybersecurity Project Matchmaker
+        </h1>
+        <p>Find the perfect cybersecurity project for your skills and interests</p>
+      </div>
+    </header>
+    
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <ul>
+        <li><a href="#" id="tab-projects" class="active">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" 
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+            style="margin-right: 6px; vertical-align: -3px;">
+            <path d="M3 3h7v7H3z"></path>
+            <path d="M14 3h7v7h-7z"></path>
+            <path d="M14 14h7v7h-7z"></path>
+            <path d="M3 14h7v7H3z"></path>
+          </svg>
+          Projects
+        </a></li>
+        <li><a href="#" id="tab-submissions">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" 
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+            style="margin-right: 6px; vertical-align: -3px;">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Group Submissions
+        </a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div id="main-content">
+        <!-- Dynamic content will be injected here by script.js -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2025 Cybersecurity Project Matchmaker | Designed by Dr Ashraf Uddin</p>
+      </div>
+    </footer>
+
+    <!-- Modal Group Form -->
+    <div id="group-form-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Group Details Submission Form</h2>
+        <form id="group-form">
+          <div>
+            <label for="project-name" class="required-field">Project Name:</label>
+            <input type="text" id="project-name" name="projectName" required readonly />
+            <div class="helper-text">This field is automatically filled based on your selection.</div>
+          </div>
+          
+          <div class="group-members-heading">
+            <label>Group Members Information</label>
+          </div>
+          
+          <div class="group-member">
+            <div>
+              <label for="member1-name" class="required-field">Member 1 Name:</label>
+              <input type="text" id="member1-name" name="member1Name" required placeholder="Primary contact person" />
+            </div>
+            <div>
+              <label for="member1-id" class="required-field">Member 1 ID:</label>
+              <input type="text" id="member1-id" name="member1Id" required placeholder="e.g., S12345" />
+            </div>
+          </div>
+          
+          <div class="group-member">
+            <div>
+              <label for="member2-name">Member 2 Name:</label>
+              <input type="text" id="member2-name" name="member2Name" placeholder="Optional" />
+            </div>
+            <div>
+              <label for="member2-id">Member 2 ID:</label>
+              <input type="text" id="member2-id" name="member2Id" placeholder="Optional" />
+            </div>
+          </div>
+          
+          <div class="group-member">
+            <div>
+              <label for="member3-name">Member 3 Name:</label>
+              <input type="text" id="member3-name" name="member3Name" placeholder="Optional" />
+            </div>
+            <div>
+              <label for="member3-id">Member 3 ID:</label>
+              <input type="text" id="member3-id" name="member3Id" placeholder="Optional" />
+            </div>
+          </div>
+          
+          <div class="group-member">
+            <div>
+              <label for="member4-name">Member 4 Name:</label>
+              <input type="text" id="member4-name" name="member4Name" placeholder="Optional" />
+            </div>
+            <div>
+              <label for="member4-id">Member 4 ID:</label>
+              <input type="text" id="member4-id" name="member4Id" placeholder="Optional" />
+            </div>
+          </div>
+          
+          <div class="group-member">
+            <div>
+              <label for="member5-name">Member 5 Name:</label>
+              <input type="text" id="member5-name" name="member5Name" placeholder="Optional" />
+            </div>
+            <div>
+              <label for="member5-id">Member 5 ID:</label>
+              <input type="text" id="member5-id" name="member5Id" placeholder="Optional" />
+            </div>
+          </div>
+          
+          <button type="submit">Submit Group Registration</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-analytics-compat.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script>
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyC0lueSvaILax8SO6ujP3W4icks6WufRKo",
+        authDomain: "projectmatchmaker-2b734.firebaseapp.com",
+        projectId: "projectmatchmaker-2b734",
+        storageBucket: "projectmatchmaker-2b734.appspot.com",
+        messagingSenderId: "320965510205",
+        appId: "1:320965510205:web:46cc3676f6ef69b6469654",
+        measurementId: "G-01863GF72T"
+      };
+      
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.firestore();
+      const analytics = firebase.analytics();
+    </script>
+
+    <!-- Your script file -->
+    <script src="script.js"></script>
+  </body>
+</html>
