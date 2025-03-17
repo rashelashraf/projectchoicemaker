@@ -720,18 +720,16 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
           resources: [
             { name: "MITRE ATT&CK", url: "https://attack.mitre.org/" }
           ],
-          researchArticles: [
-            { name: "Unauthorized Access Detection for Network Device Firmware WEB Pages", url: "https://www.mdpi.com/2079-9292/12/17/3674" },
-            { name: "Detecting unmanaged and unauthorized devices on the network with long short-term memory network", url: "https://ieeexplore.ieee.org/abstract/document/8622269" },
-            { name: "Unsupervised Network Intrusion Detection Systems: Detecting the Unknown without Knowledge", url: "https://www.sciencedirect.com/science/article/abs/pii/S0140366412000266" }
-            { name: "Detection of Unauthorized Access Points Based on Machine Learning Techniques", url: "https://link.springer.com/chapter/10.1007/978-981-19-2538-2_41" },
-            { name: "Tracking Unauthorized Access Using Machine Learning and PCA for Face Recognition Developments", url: "https://www.mdpi.com/2078-2489/14/1/25" },
-            { name: "Unauthorized Access Monitoring in Optical Access Networks", url: "https://ieeexplore.ieee.org/abstract/document/9166039" },
-            { name: "Machine Learning-Based Detection for Unauthorized Access to IoT Devices", url: "https://www.mdpi.com/2224-2708/12/2/27" },
-            { name: "Robust Detection of Unauthorized Wireless Access Points", url: "https://link.springer.com/article/10.1007/s11036-008-0109-6" }
-              
-              
-          ],
+            researchArticles: [
+              { name: "Unauthorized Access Detection for Network Device Firmware WEB Pages", url: "https://www.mdpi.com/2079-9292/12/17/3674" },
+              { name: "Detecting unmanaged and unauthorized devices on the network with long short-term memory network", url: "https://ieeexplore.ieee.org/abstract/document/8622269" },
+              { name: "Unsupervised Network Intrusion Detection Systems: Detecting the Unknown without Knowledge", url: "https://www.sciencedirect.com/science/article/abs/pii/S0140366412000266" },
+              { name: "Detection of Unauthorized Access Points Based on Machine Learning Techniques", url: "https://link.springer.com/chapter/10.1007/978-981-19-2538-2_41" },
+              { name: "Tracking Unauthorized Access Using Machine Learning and PCA for Face Recognition Developments", url: "https://www.mdpi.com/2078-2489/14/1/25" },
+              { name: "Unauthorized Access Monitoring in Optical Access Networks", url: "https://ieeexplore.ieee.org/abstract/document/9166039" },
+              { name: "Machine Learning-Based Detection for Unauthorized Access to IoT Devices", url: "https://www.mdpi.com/2224-2708/12/2/27" },
+              { name: "Robust Detection of Unauthorized Wireless Access Points", url: "https://link.springer.com/article/10.1007/s11036-008-0109-6" }
+            ],
           estimatedTime: "4 months",
           complexity: "Medium",
           uiComponent: true
