@@ -61,8 +61,8 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
               url: "https://www.sciencedirect.com/science/article/pii/S0003687024000863"
             },
             {
-              name: "OneDrive link for downloading reasearch articles",
-              url: "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/EiUfzKAYObhCsPjWHtwO-O4B6ZnZrRQ2lrU20kSewALCHg?e=T7pE6L"
+              name: "Article Download Link",
+              url: "https://crownhe.sharepoint.com/:f:/s/ICT942CybersecurityProject-Group9/EgcDTNHfFRdKlifpEEgW6dQBa3JnGs4XntOGBa75ZudVIQ?e=ffzyBA"
             }
           ],
           estimatedTime: "3-4 months",
@@ -1447,10 +1447,10 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       contributionSuggestions: "Combine dynamic and static analysis techniques, design intuitive reporting features, and integrate external threat intelligence feeds.",
       prerequisites: ["Malware analysis fundamentals", "Reverse engineering basics", "Scripting"],
       resources: [
-        { name: "Malware Analysis Resources", url: "https://www.example.com/malware-analysis" }
+        { name: "Malware Analysis Resources", url: "https://www.kaggle.com/datasets/shashwatwork/android-malware-dataset-for-machine-learning" }
       ],
       researchArticles: [
-        { name: "Modern Malware Analysis Techniques", url: "https://www.example.com/research/malware-analysis" }
+        { name: "Modern Malware Analysis Techniques", url: "https://crownhe.sharepoint.com/:f:/s/ICT942CybersecurityProject-Group1/Eimn12ty3zdFsNvNeLT5_9MB8ca0oKEJTVrJs-EEuVNa3Q?e=nRfiRS" }
       ],
       estimatedTime: "4-6 months",
       complexity: "High",
