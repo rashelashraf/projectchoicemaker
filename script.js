@@ -1829,7 +1829,272 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       estimatedTime: "3-5 months",
       complexity: "Medium",
       uiComponent: true
-    }
+    },
+
+    {
+    "id": 79,
+    "title": "Malware Detection from Image using Transfer Learning",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Intermediate",
+    "technologies": ["python", "tensorflow", "keras", "transfer_learning"],
+    "techNames": ["Python", "TensorFlow", "Keras", "Transfer Learning"],
+    "description": "Classify malware by converting binaries into images and applying transfer learning techniques.",
+    "detailedDescription": "This project involves converting malware binary files into images and leveraging pre-trained convolutional neural networks to classify them into various malware families. The focus is on using transfer learning to enhance classification performance with limited data.",
+    "contributionSuggestions": "Experiment with different CNN architectures, fine-tune pre-trained models, and explore techniques for image preprocessing and augmentation.",
+    "prerequisites": ["Deep learning", "Computer vision", "Python programming"],
+    "resources": [
+      { "name": "Malimg Dataset", "url": "https://www.example.com/malimg" }
+    ],
+    "researchArticles": [
+      { "name": "Image-based Malware Detection", "url": "https://www.example.com/research/malware-image-detection" }
+    ],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 80,
+    "title": "Phishing URL Detection Using NLP and ML",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Intermediate",
+    "technologies": ["python", "nlp", "bert", "random_forest"],
+    "techNames": ["Python", "NLP", "BERT", "Random Forest"],
+    "description": "Classify phishing URLs using a combination of NLP and machine learning techniques.",
+    "detailedDescription": "This project focuses on detecting malicious URLs by extracting textual features and applying state-of-the-art NLP models like BERT alongside traditional ML algorithms such as Random Forest to improve classification accuracy.",
+    "contributionSuggestions": "Compare the performance of different NLP models, explore feature engineering methods, and test ensemble techniques for better phishing detection.",
+    "prerequisites": ["Natural Language Processing", "Machine Learning", "Python programming"],
+    "resources": [
+      { "name": "Phishing URL Datasets", "url": "https://www.example.com/phishing-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "NLP for Phishing Detection", "url": "https://www.example.com/research/nlp-phishing" }
+    ],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 81,
+    "title": "Botnet Detection via Network Flow Analysis",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "scikit-learn", "network_analysis"],
+    "techNames": ["Python", "Scikit-learn", "Network Analysis Tools"],
+    "description": "Detect botnet command and control communications through analysis of network flow data.",
+    "detailedDescription": "The project aims to analyze network flow data to identify patterns and anomalies that indicate botnet C&C activity. By using machine learning algorithms, the system will classify traffic as benign or malicious, focusing on botnet behavior.",
+    "contributionSuggestions": "Incorporate time-series analysis, experiment with anomaly detection algorithms, and integrate threat intelligence feeds for enhanced detection.",
+    "prerequisites": ["Network security", "Machine Learning", "Python programming"],
+    "resources": [
+      { "name": "UNSW Bot-IoT Dataset", "url": "https://www.example.com/unsw-bot-iot" }
+    ],
+    "researchArticles": [
+      { "name": "Botnet Detection Using ML", "url": "https://www.example.com/research/botnet-detection" }
+    ],
+    "estimatedTime": "5 months",
+    "complexity": "High",
+    "uiComponent": false
+  },
+  {
+    "id": 82,
+    "title": "Predicting Software Vulnerabilities with Machine Learning",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "nlp", "code_analysis"],
+    "techNames": ["Python", "NLP", "Static Code Analysis"],
+    "description": "Analyze code repositories to predict potentially vulnerable functions using machine learning.",
+    "detailedDescription": "This project involves extracting features from code repositories (e.g., GitHub projects) and applying ML techniques to predict vulnerable sections of code. The project may leverage NLP for code tokenization and static analysis for feature extraction.",
+    "contributionSuggestions": "Develop a robust feature extraction pipeline, experiment with various classifiers, and evaluate the model against known vulnerabilities.",
+    "prerequisites": ["Software engineering", "Machine Learning", "Static Code Analysis", "Python programming"],
+    "resources": [
+      { "name": "GitHub Vulnerability Dataset", "url": "https://www.example.com/github-vuln-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "ML for Vulnerability Prediction", "url": "https://www.example.com/research/vulnerability-prediction" }
+    ],
+    "estimatedTime": "6 months",
+    "complexity": "High",
+    "uiComponent": false
+  },
+  {
+    "id": 83,
+    "title": "Exploit Kit Detection in Web Traffic Using Deep Learning",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "deep_learning", "rnn", "transformers"],
+    "techNames": ["Python", "Deep Learning", "RNN", "Transformers"],
+    "description": "Detect exploit kits in web traffic using advanced deep learning models.",
+    "detailedDescription": "The project focuses on analyzing web traffic data to detect exploit kits by employing sequence-based deep learning models like RNNs or Transformers. It aims to identify patterns in web traffic indicative of exploit kit behavior.",
+    "contributionSuggestions": "Experiment with different architectures, fine-tune hyperparameters, and validate the model on diverse web traffic datasets.",
+    "prerequisites": ["Deep Learning", "Cybersecurity", "Python programming"],
+    "resources": [
+      { "name": "Web Traffic Dataset", "url": "https://www.example.com/web-traffic-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "Deep Learning for Exploit Kit Detection", "url": "https://www.example.com/research/exploit-kit-detection" }
+    ],
+    "estimatedTime": "6 months",
+    "complexity": "High",
+    "uiComponent": false
+  },
+  {
+    "id": 84,
+    "title": "Automated Penetration Testing with Reinforcement Learning",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "reinforcement_learning", "security_testing"],
+    "techNames": ["Python", "Reinforcement Learning", "Security Testing Tools"],
+    "description": "Develop an RL-based system to simulate cyber attacks and identify vulnerabilities.",
+    "detailedDescription": "This project leverages reinforcement learning to automate penetration testing. The RL agent learns optimal attack strategies by interacting with a simulated environment, identifying vulnerabilities in systems over time.",
+    "contributionSuggestions": "Test various RL algorithms, simulate different attack scenarios, and analyze the trade-offs between exploration and exploitation in security contexts.",
+    "prerequisites": ["Reinforcement Learning", "Cybersecurity", "Python programming"],
+    "resources": [
+      { "name": "RL Security Environment", "url": "https://www.example.com/rl-security-env" }
+    ],
+    "researchArticles": [
+      { "name": "Automated Penetration Testing with RL", "url": "https://www.example.com/research/automated-pen-testing" }
+    ],
+    "estimatedTime": "7 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 85,
+    "title": "Keystroke Dynamics for User Authentication",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Intermediate",
+    "technologies": ["python", "machine_learning", "biometrics"],
+    "techNames": ["Python", "Machine Learning", "Biometrics"],
+    "description": "Develop a system that authenticates users based on their typing patterns.",
+    "detailedDescription": "This project focuses on using keystroke dynamics as a behavioral biometric to detect imposters. Machine learning models will be trained on keystroke data to distinguish between genuine users and potential intruders.",
+    "contributionSuggestions": "Explore feature extraction from keystroke logs, test different classifiers, and evaluate real-time authentication performance.",
+    "prerequisites": ["Machine Learning", "Biometrics", "Python programming"],
+    "resources": [
+      { "name": "Keystroke Dynamics Dataset", "url": "https://www.example.com/keystroke-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "Keystroke Dynamics in Authentication", "url": "https://www.example.com/research/keystroke-dynamics" }
+    ],
+    "estimatedTime": "4 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 86,
+    "title": "Mouse Movement Analysis for User Verification",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Intermediate",
+    "technologies": ["python", "machine_learning", "behavioral_biometrics"],
+    "techNames": ["Python", "Machine Learning", "Behavioral Biometrics"],
+    "description": "Use mouse movement patterns to verify user identity and detect anomalies.",
+    "detailedDescription": "This project analyzes mouse movement data to establish behavioral patterns for user authentication. ML models are trained to recognize deviations that may indicate unauthorized access.",
+    "contributionSuggestions": "Develop data collection methods, engineer features from mouse movements, and compare multiple ML models for accuracy.",
+    "prerequisites": ["Machine Learning", "Data Analysis", "Python programming"],
+    "resources": [
+      { "name": "Mouse Movement Dataset", "url": "https://www.example.com/mouse-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "Behavioral Biometrics via Mouse Dynamics", "url": "https://www.example.com/research/mouse-dynamics" }
+    ],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 87,
+    "title": "AI-Based CAPTCHA Breaking",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "cnn", "gan", "deep_learning"],
+    "techNames": ["Python", "CNN", "GAN", "Deep Learning"],
+    "description": "Analyze and develop adversarial techniques to break CAPTCHA systems.",
+    "detailedDescription": "This project investigates the vulnerability of CAPTCHA systems using deep learning models such as CNNs and GANs. It involves generating adversarial examples to evaluate and improve CAPTCHA security.",
+    "contributionSuggestions": "Experiment with different network architectures, study adversarial attack techniques, and propose countermeasures for robust CAPTCHA design.",
+    "prerequisites": ["Deep Learning", "Adversarial Machine Learning", "Python programming"],
+    "resources": [
+      { "name": "CAPTCHA Dataset", "url": "https://www.example.com/captcha-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "Adversarial Attacks on CAPTCHAs", "url": "https://www.example.com/research/captcha-attacks" }
+    ],
+    "estimatedTime": "6 months",
+    "complexity": "High",
+    "uiComponent": false
+  },
+  {
+    "id": 88,
+    "title": "Dark Web Forum Monitoring for Cyber Threat Intelligence",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Intermediate",
+    "technologies": ["python", "nlp", "web_scraping"],
+    "techNames": ["Python", "NLP", "Web Scraping"],
+    "description": "Monitor and analyze dark web forums to extract potential cyber threat information using NLP.",
+    "detailedDescription": "This project involves scraping dark web forums for discussions related to cyber threats and using NLP techniques to extract indicators such as malware types, vulnerabilities, and threat actors.",
+    "contributionSuggestions": "Develop robust scraping tools, refine text analysis pipelines, and validate extracted information against threat intelligence sources.",
+    "prerequisites": ["Natural Language Processing", "Web Scraping", "Cybersecurity", "Python programming"],
+    "resources": [
+      { "name": "Dark Web Dataset", "url": "https://www.example.com/dark-web-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "NLP for Cyber Threat Intelligence", "url": "https://www.example.com/research/dark-web-monitoring" }
+    ],
+    "estimatedTime": "5 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 89,
+    "title": "Ransomware Payment Tracking via Bitcoin Analysis",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "blockchain_analysis", "data_mining"],
+    "techNames": ["Python", "Blockchain Analysis", "Data Mining"],
+    "description": "Track ransomware payments by analyzing Bitcoin transactions on the blockchain.",
+    "detailedDescription": "This project aims to identify and track ransomware-related Bitcoin transactions. By analyzing blockchain data and using ML techniques, the system will identify suspicious patterns indicative of ransomware payments.",
+    "contributionSuggestions": "Integrate blockchain data with machine learning models, experiment with clustering algorithms, and validate findings against known ransomware cases.",
+    "prerequisites": ["Blockchain fundamentals", "Machine Learning", "Data Analysis", "Python programming"],
+    "resources": [
+      { "name": "Bitcoin Transaction Dataset", "url": "https://www.example.com/bitcoin-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "Blockchain Analysis for Ransomware", "url": "https://www.example.com/research/ransomware-payment-tracking" }
+    ],
+    "estimatedTime": "6 months",
+    "complexity": "High",
+    "uiComponent": false
+  },
+  {
+    "id": 90,
+    "title": "Poisoning Attack Detection in Federated Learning",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "Advanced",
+    "technologies": ["python", "federated_learning", "anomaly_detection"],
+    "techNames": ["Python", "Federated Learning", "Anomaly Detection"],
+    "description": "Detect and mitigate data poisoning attacks in federated learning environments.",
+    "detailedDescription": "This project focuses on developing techniques to detect data poisoning attacks in federated learning systems. By analyzing model updates and detecting anomalies, the system aims to protect collaborative learning from malicious influences.",
+    "contributionSuggestions": "Implement various anomaly detection methods, simulate poisoning attacks, and propose robust defense mechanisms for federated learning.",
+    "prerequisites": ["Federated Learning", "Anomaly Detection", "Machine Learning", "Python programming"],
+    "resources": [
+      { "name": "Federated Learning Dataset", "url": "https://www.example.com/federated-dataset" }
+    ],
+    "researchArticles": [
+      { "name": "Data Poisoning in Federated Learning", "url": "https://www.example.com/research/poisoning-attack-detection" }
+    ],
+    "estimatedTime": "7 months",
+    "complexity": "High",
+    "uiComponent": false
+  }
       
       
       ];
