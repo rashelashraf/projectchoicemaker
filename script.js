@@ -2094,8 +2094,530 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
     "estimatedTime": "7 months",
     "complexity": "High",
     "uiComponent": false
+  },
+        {
+  "id": 91,
+  "title": "Transformer-Based Phishing Email Detection & Alert System",
+  "category": "ml",
+  "categoryName": "Machine Learning & AI",
+  "skillLevel": "intermediate",
+  "technologies": ["python", "ml_frameworks"],
+  "techNames": ["Python", "ML Frameworks"],
+  "description": "A phishing detection system that leverages transformer models.",
+  "detailedDescription": "This project explores applying transformer architectures (such as BERT or GPT) to classify and detect phishing emails. Students will fine-tune a pre-trained model on email datasets to capture subtle language cues that differentiate phishing from legitimate communications.",
+  "contributionSuggestions": "Consider comparing multiple transformer models, incorporating explainable AI techniques (e.g. attention visualization), and designing a UI that presents both the detection outcome and the reasoning behind it.",
+  "prerequisites": [
+    "Basic knowledge of machine learning (Classification, feature engineering, training/test workflow)",
+    "Python programming (PyTorch or TensorFlow, scikit-learn, pandas)",
+    "NLP concepts (Tokenization, embeddings such as Word2Vec, GloVe, and pre-trained models like BERT, RoBERTa)",
+    "Graphical User Interface (Flask, JavaScript+HTML/CSS or React)"
+  ],
+  "resources": [
+    {
+      "name": "Dataset: Enron Email Dataset",
+      "url": "https://www.cs.cmu.edu/~enron/"
+    },
+    {
+      "name": "Dataset: PhishingCorpus",
+      "url": "https://monkey.org/~jose/phishing/"
+    },
+    {
+      "name": "Code: PhishingCorpus",
+      "url": "https://github.com/liakoyras/thesis-phishing-email-detection"
+    }
+  ],
+  "researchArticles": [
+    {
+      "name": "An improved transformer-based model for detecting phishing, spam and ham emails: A large language model approach",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/spy2.402"
+    },
+    {
+      "name": "A Systematic Literature Review on Phishing Email Detection Using Natural Language Processing Techniques",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9795286"
+    },
+    {
+      "name": "A Comprehensive Survey on Phishing Email Detection Techniques using Machine Learning and Deep Learning",
+      "url": "https://www.mdpi.com/2079-9292/12/20/4261"
+    },
+    {
+      "name": "Phishing email detection using natural language processing and deep learning techniques",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1084804522001862"
+    },
+    {
+      "name": "Attention-Based Phishing Email Detection Using Multimodal Transformers",
+      "url": "https://arxiv.org/abs/2402.18093"
+    },
+    {
+      "name": "A Framework for Detection of Phishing Emails Using Natural Language Processing and Deep Learning",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9565347"
+    },
+    {
+      "name": "A comprehensive review of machine learning-based phishing email detection techniques",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167404823002882"
+    },
+    {
+      "name": "Detection and Classification of Phishing Emails Using Machine Learning Techniques",
+      "url": "https://www.mdpi.com/2076-3417/13/15/8756"
+    },
+    {
+      "name": "A robust phishing email detection method based on ensemble learning",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0003687024000863"
+    },
+    {
+      "name": "Article Download Link",
+      "url": "https://crownhe.sharepoint.com/:f:/s/ICT942CybersecurityProject-Group9/EgcDTNHfFRdKlifpEEgW6dQBa3JnGs4XntOGBa75ZudVIQ?e=ffzyBA"
+    }
+  ],
+  "estimatedTime": "3-4 months",
+  "complexity": "Medium",
+  "uiComponent": true
+},
+{
+    "id": 92,
+    "title": "Security Information Dashboard for SMBs",
+    "category": "cyber",
+    "categoryName": "Cybersecurity",
+    "skillLevel": "intermediate",
+    "technologies": ["python", "web"],
+    "techNames": ["Python", "Web"],
+    "description": "Dashboard to visualize and manage security metrics for small and medium businesses.",
+    "detailedDescription": "A central dashboard integrating threat alerts, vulnerability data, and compliance checks tailored for SMBs.",
+    "contributionSuggestions": "Include data from sources like Shodan, VirusTotal API; integrate email alerts.",
+    "prerequisites": ["Python programming", "REST APIs", "Data visualization (Dash/Plotly)", "Cyber threat intelligence basics"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 93,
+    "title": "Automated Vulnerability Assessment Toolkit",
+    "category": "cyber",
+    "categoryName": "Cybersecurity",
+    "skillLevel": "intermediate",
+    "technologies": ["bash", "python", "nmap"],
+    "techNames": ["Bash", "Python", "Nmap"],
+    "description": "An automated toolkit to scan, assess, and report vulnerabilities in systems.",
+    "detailedDescription": "Students will build a modular CLI tool integrating scanners like Nmap, Nikto, and OpenVAS with custom logic.",
+    "contributionSuggestions": "Add PDF reporting, CVSS scoring, and integration with SIEMs.",
+    "prerequisites": ["Basic networking", "Linux shell scripting", "Vulnerability scanning tools"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "2-3 months",
+    "complexity": "Medium",
+    "uiComponent": false
+  },
+  {
+    "id": 94,
+    "title": "Enterprise Identity and Access Management System",
+    "category": "cyber",
+    "categoryName": "Cybersecurity",
+    "skillLevel": "advanced",
+    "technologies": ["java", "spring", "ldap"],
+    "techNames": ["Java", "Spring Security", "LDAP"],
+    "description": "Develop a full-stack IAM system for managing users, roles, and access.",
+    "detailedDescription": "A role-based access control system with authentication, authorization, auditing, and MFA options.",
+    "contributionSuggestions": "Add RBAC/ABAC, integrate Google Auth or Duo MFA.",
+    "prerequisites": ["Spring Boot", "Database systems", "Authentication protocols"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 95,
+    "title": "Automated Backup and Disaster Recovery System",
+    "category": "sysadmin",
+    "categoryName": "System Administration",
+    "skillLevel": "intermediate",
+    "technologies": ["bash", "cron", "aws"],
+    "techNames": ["Bash", "Cron Jobs", "AWS S3"],
+    "description": "Design and implement automated data backup and recovery scripts.",
+    "detailedDescription": "The system performs scheduled incremental backups and validates disaster recovery workflows with cloud integration.",
+    "contributionSuggestions": "Add backup verification, encryption, restore simulation.",
+    "prerequisites": ["Linux shell scripting", "AWS basics", "Filesystem knowledge"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "2-3 months",
+    "complexity": "Medium",
+    "uiComponent": false
+  },
+  {
+    "id": 96,
+    "title": "AI-Powered Fraud Detection System",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "advanced",
+    "technologies": ["python", "sklearn"],
+    "techNames": ["Python", "scikit-learn"],
+    "description": "Build a fraud detection system using supervised ML models on financial datasets.",
+    "detailedDescription": "Classify transactions as legitimate or fraudulent using ML algorithms and ensemble learning.",
+    "contributionSuggestions": "Try anomaly detection, evaluate ROC, use real-time streaming via Kafka.",
+    "prerequisites": ["ML classification", "Pandas/NumPy", "Data preprocessing"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 97,
+    "title": "Blockchain Supply Chain Tracker",
+    "category": "blockchain",
+    "categoryName": "Blockchain & Web3",
+    "skillLevel": "intermediate",
+    "technologies": ["solidity", "web3"],
+    "techNames": ["Solidity", "Web3.js"],
+    "description": "A decentralized app to trace goods through a blockchain ledger.",
+    "detailedDescription": "Track each stage of the supply chain with tamper-proof smart contracts.",
+    "contributionSuggestions": "Add QR integration and Ethereum testnet deployment.",
+    "prerequisites": ["Smart contracts", "Web development", "Supply chain basics"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3-4 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 98,
+    "title": "IoT Network Security Monitoring System",
+    "category": "iot",
+    "categoryName": "IoT & Embedded",
+    "skillLevel": "advanced",
+    "technologies": ["python", "mqtt", "wireshark"],
+    "techNames": ["Python", "MQTT", "Wireshark"],
+    "description": "Monitor and analyze IoT traffic for anomalies.",
+    "detailedDescription": "Use packet sniffing and MQTT logging to detect abnormal patterns and trigger alerts.",
+    "contributionSuggestions": "Visualize data, auto-block threats with firewall rules.",
+    "prerequisites": ["IoT protocols", "Wireshark", "Anomaly detection"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 99,
+    "title": "Secure University Course Moderation System",
+    "category": "web",
+    "categoryName": "Secure Web Applications",
+    "skillLevel": "intermediate",
+    "technologies": ["php", "mysql"],
+    "techNames": ["PHP", "MySQL"],
+    "description": "Build a course content moderation platform for universities.",
+    "detailedDescription": "Instructors upload content, which is reviewed and approved by moderators. Includes secure login and file handling.",
+    "contributionSuggestions": "Add audit logs and content versioning.",
+    "prerequisites": ["Web dev", "Database design", "Security controls"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 100,
+    "title": "Secure Restaurant Ordering & Table Management System",
+    "category": "web",
+    "categoryName": "Secure Web Applications",
+    "skillLevel": "intermediate",
+    "technologies": ["javascript", "nodejs", "firebase"],
+    "techNames": ["JavaScript", "Node.js", "Firebase"],
+    "description": "Build a secure online ordering and table booking app for restaurants.",
+    "detailedDescription": "Supports live table tracking, order queueing, and admin dashboard with role-based access.",
+    "contributionSuggestions": "Add QR code ordering, Stripe payment, and alerts.",
+    "prerequisites": ["JavaScript frameworks", "Firebase DB", "Web security"],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  }, 
+
+        {
+    "id": 101,
+    "title": "Intelligent SMS Spam Detection & Filtering System",
+    "category": "ml",
+    "categoryName": "Machine Learning & AI",
+    "skillLevel": "intermediate",
+    "technologies": [
+      "python",
+      "nlp"
+    ],
+    "techNames": [
+      "Python",
+      "NLP"
+    ],
+    "description": "Detect and filter spam SMS messages using machine learning.",
+    "detailedDescription": "Train models like Naive Bayes or LSTM to classify SMS messages as spam or ham, and integrate it into a mobile-friendly interface.",
+    "contributionSuggestions": "Use SMS datasets, apply preprocessing (stemming, tokenization), evaluate accuracy and precision.",
+    "prerequisites": [
+      "Text classification",
+      "Python programming",
+      "NLP basics"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "2-3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 102,
+    "title": "Anti-Money Laundering System Using Blockchain Technology",
+    "category": "blockchain",
+    "categoryName": "Blockchain & Web3",
+    "skillLevel": "advanced",
+    "technologies": [
+      "solidity",
+      "ethereum"
+    ],
+    "techNames": [
+      "Solidity",
+      "Ethereum"
+    ],
+    "description": "Detect suspicious transactions using blockchain-based record keeping.",
+    "detailedDescription": "Deploy smart contracts for immutable logging and use pattern detection algorithms to flag suspicious activities.",
+    "contributionSuggestions": "Incorporate KYC verification, flagging algorithm, and on-chain reporting.",
+    "prerequisites": [
+      "Blockchain fundamentals",
+      "Solidity",
+      "Transaction modeling"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 103,
+    "title": "Blockchain-Based Transaction & Settlement System",
+    "category": "blockchain",
+    "categoryName": "Blockchain & Web3",
+    "skillLevel": "intermediate",
+    "technologies": [
+      "solidity",
+      "truffle"
+    ],
+    "techNames": [
+      "Solidity",
+      "Truffle"
+    ],
+    "description": "Implement a DApp for transaction settlement using blockchain.",
+    "detailedDescription": "Build a smart contract-based system that handles payment and receipt of funds with transparent settlement rules.",
+    "contributionSuggestions": "Integrate frontend with Metamask, simulate disputes and reversals.",
+    "prerequisites": [
+      "Ethereum basics",
+      "Smart contract development"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 104,
+    "title": "Blockchain-Based Personal Identity Security System",
+    "category": "blockchain",
+    "categoryName": "Blockchain & Web3",
+    "skillLevel": "advanced",
+    "technologies": [
+      "solidity",
+      "ipfs"
+    ],
+    "techNames": [
+      "Solidity",
+      "IPFS"
+    ],
+    "description": "Create a decentralized identity management system.",
+    "detailedDescription": "Enable secure storage of hashed identity records on blockchain with encrypted document storage via IPFS.",
+    "contributionSuggestions": "Add biometric login, public/private key encryption, and identity verification.",
+    "prerequisites": [
+      "Blockchain architecture",
+      "IPFS",
+      "Encryption techniques"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 105,
+    "title": "Event Registration & QR Code Management System",
+    "category": "web",
+    "categoryName": "Web Development",
+    "skillLevel": "beginner",
+    "technologies": [
+      "html",
+      "javascript",
+      "firebase"
+    ],
+    "techNames": [
+      "HTML",
+      "JavaScript",
+      "Firebase"
+    ],
+    "description": "Web app for event registration and check-in using QR codes.",
+    "detailedDescription": "Participants register online and receive QR codes for entry, which are scanned and validated on-site.",
+    "contributionSuggestions": "Use Firebase for backend, generate QR using libraries like qrcode.js.",
+    "prerequisites": [
+      "Web development",
+      "QR generation",
+      "Firebase auth"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "2 months",
+    "complexity": "Low",
+    "uiComponent": true
+  },
+  {
+    "id": 106,
+    "title": "Digital Signature Verification & Authentication System",
+    "category": "cyber",
+    "categoryName": "Cybersecurity",
+    "skillLevel": "intermediate",
+    "technologies": [
+      "python",
+      "crypto"
+    ],
+    "techNames": [
+      "Python",
+      "Cryptography"
+    ],
+    "description": "Create a system to verify and manage digital signatures securely.",
+    "detailedDescription": "Implement RSA/ECC algorithms to sign and verify documents and emails with UI integration.",
+    "contributionSuggestions": "Include certificate authority simulation and PDF document signing.",
+    "prerequisites": [
+      "Public key cryptography",
+      "Digital signatures"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 107,
+    "title": "Blockchain-Based Tender & Contract Management System",
+    "category": "blockchain",
+    "categoryName": "Blockchain & Web3",
+    "skillLevel": "advanced",
+    "technologies": [
+      "solidity",
+      "web3"
+    ],
+    "techNames": [
+      "Solidity",
+      "Web3.js"
+    ],
+    "description": "Secure tendering system to manage government or enterprise contracts.",
+    "detailedDescription": "Post tenders, submit bids, and auto-award contracts using blockchain to ensure transparency and immutability.",
+    "contributionSuggestions": "Implement bidder authentication and deadline enforcement.",
+    "prerequisites": [
+      "Smart contracts",
+      "Tendering processes"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 108,
+    "title": "EV Charging Station Finder & Slot Booking System",
+    "category": "web",
+    "categoryName": "Web Development",
+    "skillLevel": "intermediate",
+    "technologies": [
+      "react",
+      "firebase"
+    ],
+    "techNames": [
+      "React",
+      "Firebase"
+    ],
+    "description": "Find nearest EV charging stations and book slots.",
+    "detailedDescription": "Map interface with location-based search, live availability status, and booking confirmation.",
+    "contributionSuggestions": "Use Google Maps API, add push notifications.",
+    "prerequisites": [
+      "React",
+      "Google Maps",
+      "Database"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 109,
+    "title": "Blockchain-Based Property Registration & Management System",
+    "category": "blockchain",
+    "categoryName": "Blockchain & Web3",
+    "skillLevel": "advanced",
+    "technologies": [
+      "solidity",
+      "ipfs"
+    ],
+    "techNames": [
+      "Solidity",
+      "IPFS"
+    ],
+    "description": "Manage property records and ownership transfer using smart contracts.",
+    "detailedDescription": "Each property deed is tokenized and tracked using blockchain with all documents stored in IPFS.",
+    "contributionSuggestions": "Include role-based access, government ledger simulation.",
+    "prerequisites": [
+      "Smart contract dev",
+      "Token standards",
+      "IPFS"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 110,
+    "title": "Employee Hourly Attendance Tracking with Barcode Scanner",
+    "category": "web",
+    "categoryName": "Web Development",
+    "skillLevel": "beginner",
+    "technologies": [
+      "html",
+      "js",
+      "php"
+    ],
+    "techNames": [
+      "HTML",
+      "JavaScript",
+      "PHP"
+    ],
+    "description": "Track employee attendance by scanning barcodes at login/logout.",
+    "detailedDescription": "Barcode data is logged to backend with timestamps and employee details, allowing hourly attendance reports.",
+    "contributionSuggestions": "Add analytics dashboard and late arrival notifications.",
+    "prerequisites": [
+      "Basic web dev",
+      "Barcode scanner APIs",
+      "Database"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "2 months",
+    "complexity": "Low",
+    "uiComponent": true
   }
-      
+    
+        
       
       ];
 
