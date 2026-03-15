@@ -2638,7 +2638,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "SQL",
       "AWS"
     ],
-    "description": "Design an industry-focused platform for mobility-based advertising, audience targeting, and data intelligence.",
+    "description": "Design an industry-focused platform for mobility-based advertising, audience targeting, and data intelligence. ",
     "detailedDescription": "This industry project involves building a platform that collects, processes, and analyzes mobility and location-driven data to support advertising decisions, campaign optimization, customer insights, and reporting dashboards for business stakeholders.",
     "contributionSuggestions": "Add predictive analytics, campaign performance dashboard, privacy-aware data processing, and advertiser reporting tools.",
     "prerequisites": [
@@ -2675,7 +2675,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Python",
       "Flask"
     ],
-    "description": "Develop an industry-oriented platform where users can practice software testing with AI-generated guidance and feedback.",
+    "description": "Develop an industry-oriented platform where users can practice software testing with AI-generated guidance and feedback. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
     "detailedDescription": "This industry project focuses on creating an interactive practice environment for manual and automated software testing. The platform can generate test cases, suggest bugs, assess submitted answers, and provide AI-assisted explanations to improve testing skills and industry readiness.",
     "contributionSuggestions": "Add unit testing labs, automated grading, bug simulation scenarios, and AI-based feedback for test coverage improvement.",
     "prerequisites": [
@@ -2709,7 +2709,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Node.js",
       "JavaScript"
     ],
-    "description": "Build an industry-style digital platform that helps users start conversations, connect socially, or engage through interactive icebreaker activities.",
+    "description": "Build an industry-style digital platform that helps users start conversations, connect socially, or engage through interactive icebreaker activities. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
     "detailedDescription": "This industry project can be developed as a social engagement or communication support platform that offers icebreaker prompts, matching logic, conversation starters, and activity recommendations for events, onboarding, networking, or team collaboration settings.",
     "contributionSuggestions": "Add user matching, topic recommendation engine, event mode, and analytics for engagement patterns.",
     "prerequisites": [
@@ -2745,7 +2745,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Docker",
       "OCR Tools"
     ],
-    "description": "Create an industry-grade engine to ingest documents from multiple formats and normalize them into structured, searchable data.",
+    "description": "Create an industry-grade engine to ingest documents from multiple formats and normalize them into structured, searchable data.Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
     "detailedDescription": "This industry project requires building a backend processing pipeline that accepts documents such as PDF, DOCX, images, and spreadsheets, extracts relevant content, cleans and standardizes the data, and prepares it for downstream analytics, indexing, or enterprise workflows.",
     "contributionSuggestions": "Add OCR support, metadata extraction, duplicate detection, document classification, and export to JSON or database.",
     "prerequisites": [
@@ -2783,7 +2783,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "PostgreSQL"
     ],
     "description": "Prototype an industry recruitment workflow system that uses AI to automate screening, ranking, and candidate management tasks.",
-    "detailedDescription": "This industry project involves designing a recruitment platform that can parse resumes, match candidates to job descriptions, rank applicants, automate interview workflow stages, and generate recruiter insights to improve hiring efficiency.",
+    "detailedDescription": "This industry project involves designing a recruitment platform that can parse resumes, match candidates to job descriptions, rank applicants, automate interview workflow stages, and generate recruiter insights to improve hiring efficiency. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
     "contributionSuggestions": "Add CV parsing, candidate-job matching, interview scheduling, recruiter dashboard, and explainable AI scoring.",
     "prerequisites": [
       "Web development",
@@ -2798,6 +2798,121 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
     "complexity": "High",
     "uiComponent": true
   }
+    ,
+        {
+  "id": 116,
+  "title": "Strategic Data Infrastructure Initiative",
+  "category": "industry",
+  "categoryName": "Industry Project",
+  "projectType": "industry-collaboration",
+  "skillLevel": "advanced",
+  "technologies": ["python","sql","cloud","data-engineering","api"],
+  "techNames": ["Python","SQL","Cloud Platforms","Data Engineering","API Development"],
+  "description": "Design and develop a scalable enterprise data infrastructure to support data-driven decision making and analytics across departments. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "detailedDescription": "This industry project focuses on designing and implementing a strategic data infrastructure that integrates multiple enterprise data sources, supports analytics pipelines, and enables scalable storage and processing. Students will build ingestion pipelines, data warehouses or lakes, and analytics-ready datasets for business intelligence and AI applications.",
+  "contributionSuggestions": "Add ETL pipelines, real-time data streaming, analytics dashboards, and governance frameworks for enterprise data management.",
+  "prerequisites": ["Database systems","Python programming","Cloud fundamentals","Data engineering basics"],
+  "resources": [],
+  "researchArticles": [],
+  "estimatedTime": "4 months",
+  "complexity": "High",
+  "uiComponent": true
+},
+{
+  "id": 117,
+  "title": "Enterprise Systems Audit and AI Automation Implementation Project",
+  "category": "industry",
+  "categoryName": "Industry Project",
+  "projectType": "industry-collaboration",
+  "skillLevel": "advanced",
+  "technologies": ["python","ai","process-automation","sql","dashboard"],
+  "techNames": ["Python","Artificial Intelligence","Process Automation","SQL","Dashboard Tools"],
+  "description": "Analyze enterprise systems to identify inefficiencies and implement AI-based automation solutions to improve operational workflows. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "detailedDescription": "Students will audit existing enterprise systems and workflows to detect inefficiencies, redundant processes, or manual operations. Based on findings, they will design and prototype AI-driven automation tools that streamline operations and improve productivity.",
+  "contributionSuggestions": "Integrate workflow automation, anomaly detection, reporting dashboards, and AI-based recommendations for process improvements.",
+  "prerequisites": ["Business process analysis","Python programming","AI basics","Enterprise systems understanding"],
+  "resources": [],
+  "researchArticles": [],
+  "estimatedTime": "4 months",
+  "complexity": "High",
+  "uiComponent": true
+},
+{
+  "id": 118,
+  "title": "AI Driven Telematics BI Solution",
+  "category": "industry",
+  "categoryName": "Industry Project",
+  "projectType": "industry-collaboration",
+  "skillLevel": "advanced",
+  "technologies": ["python","machine-learning","sql","powerbi","cloud"],
+  "techNames": ["Python","Machine Learning","SQL","Power BI","Cloud Platforms"],
+  "description": "Develop an AI-powered telematics business intelligence solution for analyzing vehicle data, driver behavior, and operational insights. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "detailedDescription": "This project involves building an analytics platform that collects telematics data from vehicles and uses AI techniques to generate insights related to driver performance, route efficiency, and operational risk. The system will provide dashboards and predictive analytics for fleet management.",
+  "contributionSuggestions": "Add anomaly detection, predictive maintenance models, real-time dashboards, and fleet performance analytics.",
+  "prerequisites": ["Machine learning basics","Data analytics","Python programming","Business intelligence tools"],
+  "resources": [],
+  "researchArticles": [],
+  "estimatedTime": "4 months",
+  "complexity": "High",
+  "uiComponent": true
+},
+{
+  "id": 119,
+  "title": "AI Driven Telematics BI CMS",
+  "category": "industry",
+  "categoryName": "Industry Project",
+  "projectType": "industry-collaboration",
+  "skillLevel": "advanced",
+  "technologies": ["react","node","python","sql","dashboard"],
+  "techNames": ["React","Node.js","Python","SQL","Analytics Dashboard"],
+  "description": "Create a content and analytics management system for telematics-based business intelligence platforms. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "detailedDescription": "Students will design a CMS-style platform that manages telematics data dashboards, reporting templates, and analytics insights. The system will allow administrators to configure data sources, manage dashboards, and publish insights for operational teams.",
+  "contributionSuggestions": "Add role-based access control, dashboard customization, automated report generation, and analytics widgets.",
+  "prerequisites": ["Web development","Database systems","API development","Data analytics fundamentals"],
+  "resources": [],
+  "researchArticles": [],
+  "estimatedTime": "4 months",
+  "complexity": "High",
+  "uiComponent": true
+},
+{
+  "id": 120,
+  "title": "Predictive Cashflow Analytics System",
+  "category": "industry",
+  "categoryName": "Industry Project",
+  "projectType": "industry-collaboration",
+  "skillLevel": "advanced",
+  "technologies": ["python","machine-learning","sql","forecasting","dashboard"],
+  "techNames": ["Python","Machine Learning","SQL","Time Series Forecasting","Business Dashboards"],
+  "description": "Develop a predictive analytics system that forecasts organizational cashflow using historical financial data and AI models. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "detailedDescription": "This project focuses on building a financial analytics platform that uses historical financial records to predict future cashflow trends. Students will implement forecasting models, data visualization dashboards, and scenario simulations to support financial decision-making.",
+  "contributionSuggestions": "Add time-series forecasting models, scenario analysis tools, automated financial reports, and anomaly detection.",
+  "prerequisites": ["Python programming","Data analytics","Financial data understanding","Machine learning basics"],
+  "resources": [],
+  "researchArticles": [],
+  "estimatedTime": "4 months",
+  "complexity": "High",
+  "uiComponent": true
+},
+{
+  "id": 121,
+  "title": "CA Commercial Support Assistant",
+  "category": "industry",
+  "categoryName": "Industry Project",
+  "projectType": "industry-collaboration",
+  "skillLevel": "intermediate",
+  "technologies": ["python","nlp","react","node","database"],
+  "techNames": ["Python","Natural Language Processing","React","Node.js","Database Systems"],
+  "description": "Develop an AI-powered assistant that supports commercial analysts with document processing, insights generation, and workflow automation. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "detailedDescription": "This industry project focuses on building an AI assistant that helps commercial teams process documents, analyze data, generate summaries, and assist with operational tasks. The system may include conversational interfaces, document parsing, and automated reporting.",
+  "contributionSuggestions": "Add document ingestion, chatbot interface, data summarization tools, and integration with enterprise data systems.",
+  "prerequisites": ["Python programming","Basic NLP concepts","Web development","Database systems"],
+  "resources": [],
+  "researchArticles": [],
+  "estimatedTime": "3–4 months",
+  "complexity": "Medium",
+  "uiComponent": true
+}
     
         
       
