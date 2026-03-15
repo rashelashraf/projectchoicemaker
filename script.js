@@ -2719,7 +2719,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Node.js",
       "JavaScript"
     ],
-    "description": "Build an industry-style digital platform that helps users start conversations, connect socially, or engage through interactive icebreaker activities. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+    "description": "Build an industry-style digital platform that helps users start conversations, connect socially, or engage through interactive icebreaker activities.",
     "detailedDescription": "This industry project can be developed as a social engagement or communication support platform that offers icebreaker prompts, matching logic, conversation starters, and activity recommendations for events, onboarding, networking, or team collaboration settings.",
     "contributionSuggestions": "Add user matching, topic recommendation engine, event mode, and analytics for engagement patterns.",
     "prerequisites": [
