@@ -2648,7 +2648,12 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "API integration",
       "Cloud deployment basics"
     ],
-    "resources": [],
+         "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
     "researchArticles": [],
     "estimatedTime": "4 months",
     "complexity": "High",
@@ -2675,7 +2680,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Python",
       "Flask"
     ],
-    "description": "Develop an industry-oriented platform where users can practice software testing with AI-generated guidance and feedback. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+    "description": "Develop an industry-oriented platform where users can practice software testing with AI-generated guidance and feedback.",
     "detailedDescription": "This industry project focuses on creating an interactive practice environment for manual and automated software testing. The platform can generate test cases, suggest bugs, assess submitted answers, and provide AI-assisted explanations to improve testing skills and industry readiness.",
     "contributionSuggestions": "Add unit testing labs, automated grading, bug simulation scenarios, and AI-based feedback for test coverage improvement.",
     "prerequisites": [
@@ -2684,7 +2689,12 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Python programming",
       "REST API basics"
     ],
-    "resources": [],
+          "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
     "researchArticles": [],
     "estimatedTime": "3 months",
     "complexity": "Medium",
@@ -2718,7 +2728,12 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "User authentication",
       "Database design"
     ],
-    "resources": [],
+          "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
     "researchArticles": [],
     "estimatedTime": "2.5 months",
     "complexity": "Medium",
@@ -2755,7 +2770,12 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Databases",
       "Text extraction basics"
     ],
-    "resources": [],
+          "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
     "researchArticles": [],
     "estimatedTime": "4 months",
     "complexity": "High",
