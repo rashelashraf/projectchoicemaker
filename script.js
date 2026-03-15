@@ -2615,6 +2615,188 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
     "estimatedTime": "2 months",
     "complexity": "Low",
     "uiComponent": true
+  },
+
+        {
+    "id": 111,
+    "title": "Mobility Advertising & Data Intelligence Platform Design",
+    "category": "industry",
+    "categoryName": "Industry Project",
+    "projectType": "industry-collaboration",
+    "skillLevel": "advanced",
+    "technologies": [
+      "react",
+      "node",
+      "python",
+      "sql",
+      "aws"
+    ],
+    "techNames": [
+      "React",
+      "Node.js",
+      "Python",
+      "SQL",
+      "AWS"
+    ],
+    "description": "Design an industry-focused platform for mobility-based advertising, audience targeting, and data intelligence.",
+    "detailedDescription": "This industry project involves building a platform that collects, processes, and analyzes mobility and location-driven data to support advertising decisions, campaign optimization, customer insights, and reporting dashboards for business stakeholders.",
+    "contributionSuggestions": "Add predictive analytics, campaign performance dashboard, privacy-aware data processing, and advertiser reporting tools.",
+    "prerequisites": [
+      "Web application development",
+      "Database design",
+      "Data analytics fundamentals",
+      "API integration",
+      "Cloud deployment basics"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
+  },
+  {
+    "id": 112,
+    "title": "AI-Assisted Software Testing Practice Platform",
+    "category": "industry",
+    "categoryName": "Industry Project",
+    "projectType": "industry-collaboration",
+    "skillLevel": "intermediate",
+    "technologies": [
+      "html",
+      "css",
+      "js",
+      "python",
+      "flask"
+    ],
+    "techNames": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      "Flask"
+    ],
+    "description": "Develop an industry-oriented platform where users can practice software testing with AI-generated guidance and feedback.",
+    "detailedDescription": "This industry project focuses on creating an interactive practice environment for manual and automated software testing. The platform can generate test cases, suggest bugs, assess submitted answers, and provide AI-assisted explanations to improve testing skills and industry readiness.",
+    "contributionSuggestions": "Add unit testing labs, automated grading, bug simulation scenarios, and AI-based feedback for test coverage improvement.",
+    "prerequisites": [
+      "Basic web development",
+      "Software testing concepts",
+      "Python programming",
+      "REST API basics"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "3 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 113,
+    "title": "Break The Ice",
+    "category": "industry",
+    "categoryName": "Industry Project",
+    "projectType": "industry-collaboration",
+    "skillLevel": "intermediate",
+    "technologies": [
+      "react",
+      "firebase",
+      "node",
+      "js"
+    ],
+    "techNames": [
+      "React",
+      "Firebase",
+      "Node.js",
+      "JavaScript"
+    ],
+    "description": "Build an industry-style digital platform that helps users start conversations, connect socially, or engage through interactive icebreaker activities.",
+    "detailedDescription": "This industry project can be developed as a social engagement or communication support platform that offers icebreaker prompts, matching logic, conversation starters, and activity recommendations for events, onboarding, networking, or team collaboration settings.",
+    "contributionSuggestions": "Add user matching, topic recommendation engine, event mode, and analytics for engagement patterns.",
+    "prerequisites": [
+      "Frontend development",
+      "Basic backend integration",
+      "User authentication",
+      "Database design"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "2.5 months",
+    "complexity": "Medium",
+    "uiComponent": true
+  },
+  {
+    "id": 114,
+    "title": "Develop Document Ingestion & Normalisation Engine",
+    "category": "industry",
+    "categoryName": "Industry Project",
+    "projectType": "industry-collaboration",
+    "skillLevel": "advanced",
+    "technologies": [
+      "python",
+      "fastapi",
+      "mongodb",
+      "docker",
+      "ocr"
+    ],
+    "techNames": [
+      "Python",
+      "FastAPI",
+      "MongoDB",
+      "Docker",
+      "OCR Tools"
+    ],
+    "description": "Create an industry-grade engine to ingest documents from multiple formats and normalize them into structured, searchable data.",
+    "detailedDescription": "This industry project requires building a backend processing pipeline that accepts documents such as PDF, DOCX, images, and spreadsheets, extracts relevant content, cleans and standardizes the data, and prepares it for downstream analytics, indexing, or enterprise workflows.",
+    "contributionSuggestions": "Add OCR support, metadata extraction, duplicate detection, document classification, and export to JSON or database.",
+    "prerequisites": [
+      "Python programming",
+      "File processing concepts",
+      "API development",
+      "Databases",
+      "Text extraction basics"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": false
+  },
+  {
+    "id": 115,
+    "title": "AI Recruitment Workflow Automation Prototype",
+    "category": "industry",
+    "categoryName": "Industry Project",
+    "projectType": "industry-collaboration",
+    "skillLevel": "advanced",
+    "technologies": [
+      "python",
+      "react",
+      "node",
+      "nlp",
+      "postgresql"
+    ],
+    "techNames": [
+      "Python",
+      "React",
+      "Node.js",
+      "Natural Language Processing",
+      "PostgreSQL"
+    ],
+    "description": "Prototype an industry recruitment workflow system that uses AI to automate screening, ranking, and candidate management tasks.",
+    "detailedDescription": "This industry project involves designing a recruitment platform that can parse resumes, match candidates to job descriptions, rank applicants, automate interview workflow stages, and generate recruiter insights to improve hiring efficiency.",
+    "contributionSuggestions": "Add CV parsing, candidate-job matching, interview scheduling, recruiter dashboard, and explainable AI scoring.",
+    "prerequisites": [
+      "Web development",
+      "Database systems",
+      "Python programming",
+      "Machine learning or NLP basics",
+      "Workflow automation concepts"
+    ],
+    "resources": [],
+    "researchArticles": [],
+    "estimatedTime": "4 months",
+    "complexity": "High",
+    "uiComponent": true
   }
     
         
