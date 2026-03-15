@@ -2783,7 +2783,7 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "PostgreSQL"
     ],
     "description": "Prototype an industry recruitment workflow system that uses AI to automate screening, ranking, and candidate management tasks.",
-    "detailedDescription": "This industry project involves designing a recruitment platform that can parse resumes, match candidates to job descriptions, rank applicants, automate interview workflow stages, and generate recruiter insights to improve hiring efficiency. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+    "detailedDescription": "This industry project involves designing a recruitment platform that can parse resumes, match candidates to job descriptions, rank applicants, automate interview workflow stages, and generate recruiter insights to improve hiring efficiency.",
     "contributionSuggestions": "Add CV parsing, candidate-job matching, interview scheduling, recruiter dashboard, and explainable AI scoring.",
     "prerequisites": [
       "Web development",
@@ -2792,7 +2792,12 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
       "Machine learning or NLP basics",
       "Workflow automation concepts"
     ],
-    "resources": [],
+      "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
     "researchArticles": [],
     "estimatedTime": "4 months",
     "complexity": "High",
@@ -2808,11 +2813,16 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
   "skillLevel": "advanced",
   "technologies": ["python","sql","cloud","data-engineering","api"],
   "techNames": ["Python","SQL","Cloud Platforms","Data Engineering","API Development"],
-  "description": "Design and develop a scalable enterprise data infrastructure to support data-driven decision making and analytics across departments. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "description": "Design and develop a scalable enterprise data infrastructure to support data-driven decision making and analytics across departments.",
   "detailedDescription": "This industry project focuses on designing and implementing a strategic data infrastructure that integrates multiple enterprise data sources, supports analytics pipelines, and enables scalable storage and processing. Students will build ingestion pipelines, data warehouses or lakes, and analytics-ready datasets for business intelligence and AI applications.",
   "contributionSuggestions": "Add ETL pipelines, real-time data streaming, analytics dashboards, and governance frameworks for enterprise data management.",
   "prerequisites": ["Database systems","Python programming","Cloud fundamentals","Data engineering basics"],
-  "resources": [],
+    "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
   "researchArticles": [],
   "estimatedTime": "4 months",
   "complexity": "High",
@@ -2827,11 +2837,16 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
   "skillLevel": "advanced",
   "technologies": ["python","ai","process-automation","sql","dashboard"],
   "techNames": ["Python","Artificial Intelligence","Process Automation","SQL","Dashboard Tools"],
-  "description": "Analyze enterprise systems to identify inefficiencies and implement AI-based automation solutions to improve operational workflows. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "description": "Analyze enterprise systems to identify inefficiencies and implement AI-based automation solutions to improve operational workflows.",
   "detailedDescription": "Students will audit existing enterprise systems and workflows to detect inefficiencies, redundant processes, or manual operations. Based on findings, they will design and prototype AI-driven automation tools that streamline operations and improve productivity.",
   "contributionSuggestions": "Integrate workflow automation, anomaly detection, reporting dashboards, and AI-based recommendations for process improvements.",
   "prerequisites": ["Business process analysis","Python programming","AI basics","Enterprise systems understanding"],
-  "resources": [],
+   "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
   "researchArticles": [],
   "estimatedTime": "4 months",
   "complexity": "High",
@@ -2846,11 +2861,16 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
   "skillLevel": "advanced",
   "technologies": ["python","machine-learning","sql","powerbi","cloud"],
   "techNames": ["Python","Machine Learning","SQL","Power BI","Cloud Platforms"],
-  "description": "Develop an AI-powered telematics business intelligence solution for analyzing vehicle data, driver behavior, and operational insights. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "description": "Develop an AI-powered telematics business intelligence solution for analyzing vehicle data, driver behavior, and operational insights.",
   "detailedDescription": "This project involves building an analytics platform that collects telematics data from vehicles and uses AI techniques to generate insights related to driver performance, route efficiency, and operational risk. The system will provide dashboards and predictive analytics for fleet management.",
   "contributionSuggestions": "Add anomaly detection, predictive maintenance models, real-time dashboards, and fleet performance analytics.",
   "prerequisites": ["Machine learning basics","Data analytics","Python programming","Business intelligence tools"],
-  "resources": [],
+    "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
   "researchArticles": [],
   "estimatedTime": "4 months",
   "complexity": "High",
@@ -2865,11 +2885,16 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
   "skillLevel": "advanced",
   "technologies": ["react","node","python","sql","dashboard"],
   "techNames": ["React","Node.js","Python","SQL","Analytics Dashboard"],
-  "description": "Create a content and analytics management system for telematics-based business intelligence platforms. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "description": "Create a content and analytics management system for telematics-based business intelligence platforms.",
   "detailedDescription": "Students will design a CMS-style platform that manages telematics data dashboards, reporting templates, and analytics insights. The system will allow administrators to configure data sources, manage dashboards, and publish insights for operational teams.",
   "contributionSuggestions": "Add role-based access control, dashboard customization, automated report generation, and analytics widgets.",
   "prerequisites": ["Web development","Database systems","API development","Data analytics fundamentals"],
-  "resources": [],
+  "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
   "researchArticles": [],
   "estimatedTime": "4 months",
   "complexity": "High",
@@ -2884,11 +2909,16 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
   "skillLevel": "advanced",
   "technologies": ["python","machine-learning","sql","forecasting","dashboard"],
   "techNames": ["Python","Machine Learning","SQL","Time Series Forecasting","Business Dashboards"],
-  "description": "Develop a predictive analytics system that forecasts organizational cashflow using historical financial data and AI models. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "description": "Develop a predictive analytics system that forecasts organizational cashflow using historical financial data and AI models.",
   "detailedDescription": "This project focuses on building a financial analytics platform that uses historical financial records to predict future cashflow trends. Students will implement forecasting models, data visualization dashboards, and scenario simulations to support financial decision-making.",
   "contributionSuggestions": "Add time-series forecasting models, scenario analysis tools, automated financial reports, and anomaly detection.",
   "prerequisites": ["Python programming","Data analytics","Financial data understanding","Machine learning basics"],
-  "resources": [],
+   "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
   "researchArticles": [],
   "estimatedTime": "4 months",
   "complexity": "High",
