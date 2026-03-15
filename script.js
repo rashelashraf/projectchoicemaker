@@ -2903,11 +2903,18 @@ let groupSubmissions = JSON.parse(localStorage.getItem("groupSubmissions")) || [
   "skillLevel": "intermediate",
   "technologies": ["python","nlp","react","node","database"],
   "techNames": ["Python","Natural Language Processing","React","Node.js","Database Systems"],
-  "description": "Develop an AI-powered assistant that supports commercial analysts with document processing, insights generation, and workflow automation. Know more about the project here: <a href='https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY' target='_blank'>AI Industry Project</a>",
+  "description": "Develop an AI-powered assistant that supports commercial analysts with document processing, insights generation, and workflow automation.",
   "detailedDescription": "This industry project focuses on building an AI assistant that helps commercial teams process documents, analyze data, generate summaries, and assist with operational tasks. The system may include conversational interfaces, document parsing, and automated reporting.",
   "contributionSuggestions": "Add document ingestion, chatbot interface, data summarization tools, and integration with enterprise data systems.",
   "prerequisites": ["Python programming","Basic NLP concepts","Web development","Database systems"],
-  "resources": [],
+    
+  "resources": [
+  {
+    "name": "Know more about the project here",
+    "url": "https://crownhe-my.sharepoint.com/:f:/g/personal/ashraf_uddin_cihe_edu_au/IgCgzHYNeLmhSq_E6dwRmbaFAZEcITUuf1o8923jD7zp-7k?e=fBNgaY"
+  }
+  ],
+    
   "researchArticles": [],
   "estimatedTime": "3–4 months",
   "complexity": "Medium",
